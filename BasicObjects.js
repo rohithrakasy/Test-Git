@@ -9,3 +9,9 @@ let person ={
 console.log(person);
 
 console.log(person.firstName);
+
+// Add new property in person
+
+person.gender= ' Male';
+
+console.log(person);
