@@ -1,6 +1,6 @@
 /*  Let's create a class and how we can call them by icluding constructors*/
 
-class PersonDetails {
+module.exports = class PersonDetails {
   age = 26;
   gender = "male";
 
@@ -14,16 +14,16 @@ class PersonDetails {
     return "Full Name: " + this.firstname + this.lastname;
   }
 
-  fullNameOfPerson(){
-    console.log("This is called from function")
+  fullNameOfPerson() {
+    console.log("This is called from function");
     console.log("Full Name: " + this.firstname + this.lastname);
   }
-}
+};
 
-// create a object fro the class
-let person = new PersonDetails("Rohith", "Raka");
+// // create a object fro the class
+// let person = new PersonDetails("Rohith", "Raka");
 
-console.log("Age: " + person.age);
-console.log(person.fullName);
+// console.log("Age: " + person.age);
+// console.log(person.fullName);
 
-person.fullNameOfPerson();
+// person.fullNameOfPerson();
