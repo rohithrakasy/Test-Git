@@ -3,6 +3,7 @@
 let person = {
   firstName: "Rohith",
   lastName: "R",
+  age: 25,
   fullName: function () {
     console.log(this.firstName + this.lastName);
   },
